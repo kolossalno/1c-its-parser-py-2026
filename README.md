@@ -2,6 +2,8 @@
 
 Инструмент для загрузки и локального сохранения документации с [сайта ИТС](https://its.1c.ru).
 
+###### Идея взята у https://github.com/johnnyshut/1c-its-parser-py но пришлось доработать MAIN.PY под особенности актуальной верстки.
+
 - [Парсер документации 1С ИТС](#парсер-документации-1с-итс)
   - [Возможности](#возможности)
   - [Установка](#установка)
@@ -76,7 +78,7 @@ python main.py --url https://its.1c.ru/db/edtdoc --login https://login.1c.ru
 ### Полный пример с указанием всех параметров
 
 ```python
-python main.py --url https://its.1c.ru/db/edtdoc --login https://login.1c.ru/login --username 56572-45 --password 5c5ad902 --limit 50 --headless --verbose
+python main.py --url https://its.1c.ru/db/edtdoc --login https://login.1c.ru/login --username MyLogin --password  anyPassw123 --limit 50 --headless --verbose
 ```
 
 ### Параметры командной строки
